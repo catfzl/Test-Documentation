@@ -105,7 +105,7 @@ All testing will be completed by the IdP Team, Some features may require a combi
 | [Functional Testing](#1211-functional-testing)                           | X                          | X                         |
 | [Non-functional Testing](#1212-non-functional-testing)                   | X                          | X                         |
 | [System Integration Testing (SIT)](#1213-system-integration-testing-sit) |                            | X                         |
-| [User Acceptance Testing (UAT)](#1214-user-acceptance-testing-uat-)      |                            | X                         |
+| [User Acceptance Testing (UAT)](#1214-user-acceptance-testing-uat)      |                            | X                         |
 
 ## 4.3 QA Testing Responsibilities 
 | **Name** | **Role**    | **Responsibilities**                           |
@@ -255,7 +255,7 @@ Upon completion of all testing activities, a final test summary report will be p
 |                   | &lt;testCase>  | P0           |
 
 
-### 9.2 Non-Functional Tests
+### 9.2 Non-functional Tests
 
 | **Domain**        | **Testing**                                   | **Priority** |
 |:-----------------:|:---------------------------------------------:|:------------:|
@@ -342,12 +342,12 @@ Verify necessary configurations, permissions, and dependencies are in place for 
 ### **12.1** **Test Types:**
 
 #### **12.1.1** **Functional Testing:** 
-Aims to validate that the software meets the specified functional requirements, performs as expected, and delivers value to users by testing its features and functionality. This will include Integration, P0, Regression, and E2E testing
+Aims to validate that the software meets the specified functional requirements, performs as expected, and delivers value to users by testing its features and functionality. This will include Integration, P0, Regression, and E2E testing.
 
 #### **12.1.2** **Non-functional Testing:**  
 Testing that focuses on evaluating the characteristics of a system that are not related to its specific functional requirements. While functional testing verifies what the system does, non-functional testing evaluates how well it performs those functions. 
 
-##### **12.1.2.1** **Performance Testing: **
+##### **12.1.2.1 Performance Testing:**
 Evaluate how well the system performs under different workload conditions. This includes tests such as:
 
 ###### ***Load Testing:*** 
@@ -362,7 +362,7 @@ Testing the system's ability to handle increasing loads by adding resources.
 ###### ***Endurance Testing:***
 Checking the system's ability to sustain continuous operation over a prolonged period.
 
-##### **12.1.2.1** **Security Testing: **
+##### **12.1.2.1** **Security Testing:**
 Ensures that the system is secure and protected against unauthorized access, data breaches, and other security threats. This includes tests such as:
 
 ###### ***Vulnerability Assessment:***
@@ -377,7 +377,7 @@ Verifying the effectiveness of authentication mechanisms and access controls.
 ###### ***Authorization Testing:***
 Checking whether users have appropriate permissions and access rights.
 
-##### **12.1.2.3 Usability Testing: **
+##### **12.1.2.3 Usability Testing:**
 Assesses the user-friendliness and ease of use of the system from the end-user's perspective. This includes tests such as:
 
 ###### ***User Interface (UI) Testing:*** 
@@ -389,7 +389,7 @@ Ensuring that the system is accessible to users with disabilities and complies w
 ###### ***User Experience (UX) Testing:*** 
 Gathering feedback from users to assess their overall satisfaction and experience with the system.
 
-##### **12.1.2.4 Compatibility Testing: **
+##### **12.1.2.4 Compatibility Testing:**
 Checks the compatibility of the system with different hardware, operating systems, browsers, and other software components. This includes tests such as:
 
 ###### ***Browser Compatibility Testing:***
@@ -401,10 +401,10 @@ Testing the system on various devices (e.g., desktops, laptops, tablets, smartph
 #### **12.1.3 System Integration Testing (SIT):**
 A level of testing performed by the QA team where individual components or modules are combined and tested as a group to verify that they work together as expected within the larger system or application.
 
-#### **12.1.4 User Acceptance Testing (UAT): **
+#### **12.1.4 User Acceptance Testing (UAT):**
 Formal testing with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user, customers, or other authorized entity to determine whether or not to accept the system.
 
-#### **12.1.5 Unit Testing: **
+#### **12.1.5 Unit Testing:**
 Testing individual units or components of the software in isolation to ensure that each unit functions correctly as per its design. 
 
 ### **12.2 Data Persistence**
@@ -413,4 +413,4 @@ Verifying changes made are stored correctly and persist across sessions, applica
 ### **12.3 Data Validation & Integrity**
 Confirming that the data is in the correct format before saving and data relationships (e.g., between tables in a database) remain intact after an update.
 
-### **12.4 **&lt;projectNameSpecificTerminology>
+### **12.4 &lt;projectNameSpecificTerminology>**
