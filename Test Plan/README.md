@@ -153,7 +153,7 @@ Any issue discovered while testing will be reported in JIRA by means of bug crea
 | Edge            |                  | Windows      |                         |
 
 ### 5.2 Tools:
-Android Emulator, Jenkins, BOB/BobThe Builder, Postman, Selenium, Splunk, DataDog, Sentry, HEAP, Pulsar, Pulseman, Auth0, PostgreSQL, Toast POS, JIRA, TestRail, Sonarqube, Browserstack, Testi, SendGrid, Storybook 
+Android Emulator, Jenkins, BOB/BobThe Builder, Postman, Selenium, Splunk, DataDog, Sentry, HEAP, Pulsar, Pulseman, Auth0, PostgreSQL, JIRA, TestRail, Sonarqube, Browserstack, Testi, SendGrid, Storybook 
 
 ### 5.3 Configurations:
 
@@ -233,7 +233,7 @@ Upon completion of all testing activities, a final test summary report will be p
 ## 8.2 Risks
 * Risk: Increased support load due to &lt;projectName> implementation. 
     * Mitigation: Collaborate with communication teams for effective user troubleshooting guides to help Care agents familiarize themselves with the &lt;projectName> process and address any technical or usability issues they may encounter.
-    * Mitigation: Provide clear documentation to &lt;endUser> for visibility to stay up-to-date with any new automatic archival of Inactive users.
+    * Mitigation: Provide clear documentation to &lt;endUser> for visibility to stay up-to-date with any &lt;projectName>.
 
 * Risk: User resistance following implementation surrounding the &lt;pointOfFriction>. Possible resistance could include disruption of workflow and added complexity.
     * Mitigation: User education, communication/messaging; providing clear comms via email and workflow UI to cover the necessity and benefits, and guidance on implementation.
@@ -362,7 +362,7 @@ Testing the system's ability to handle increasing loads by adding resources.
 ###### ***Endurance Testing:***
 Checking the system's ability to sustain continuous operation over a prolonged period.
 
-##### **12.1.2.1** **Security Testing:**
+##### **12.1.2.2** **Security Testing:**
 Ensures that the system is secure and protected against unauthorized access, data breaches, and other security threats. This includes tests such as:
 
 ###### ***Vulnerability Assessment:***
