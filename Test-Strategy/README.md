@@ -112,7 +112,7 @@ In this phase, the test strategy is executed. Test cases are run according to th
 
 #### 4.4.3 Artifacts
 **Created:**
-* *Final Testing Summary:* Created by the QA Engineer at the conclusion of the testing phase. This document summarizes testing activities, key findings, defect resolution, test coverage, and the overall readiness of the feature for deployment.
+* *[Final Testing Summary Report](Final-Test-Summary-Report):* Created by the QA Engineer at the conclusion of the testing phase. This document summarizes testing activities, key findings, defect resolution, test coverage, and the overall readiness of the feature for deployment.
 
 **Updated:**
 * *[Test Plan](Test-Plan):* Updated as necessary to reflect changes in scope or testing progress.
@@ -133,7 +133,7 @@ During deployment, the test strategy should be revisited for final validation. T
 
 #### 4.5.3 Artifacts
 **Used**
-* *Final Testing Summary:* Presented to stakeholders to confirm testing completion and feature readiness for deployment.
+* *[Final Testing Summary Report](Final-Test-Summary-Report):* Presented to stakeholders to confirm testing completion and feature readiness for deployment.
 
 ### 4.6 Maintenance
 Even after the feature is deployed, the test strategy may need to be updated for ongoing maintenance and future updates. Regression testing, performance monitoring, and support for any new features or patches should be part of the ongoing testing strategy. The strategy should be revisited to ensure continued alignment with evolving business and technical needs.
@@ -153,4 +153,4 @@ Even after the feature is deployed, the test strategy may need to be updated for
 **Updated**
 * *[Test Plan](Test-Plan):* Modified to reflect changes for ongoing testing of new updates or patches.
 
-* *Final Testing Summary:* Updated as needed for new features or patches.
+* *[Final Testing Summary Report](Final-Test-Summary-Report)* Updated as needed for new features or patches.
